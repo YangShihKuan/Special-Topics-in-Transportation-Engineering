@@ -1,3 +1,5 @@
+**運輸工程特論 授課教授-朱致遠**
+
 ## Assignment 1
 1. Solve the furniture company problem in AMPL.
 2. Read the section of "model formulation" in Chu and Chen (2016).
