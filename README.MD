@@ -61,6 +61,7 @@ Save the result of simulation in a file and then generate animation using the sa
 Data for a maze is provided for testing  
 
 ## Assignment 8 (Dynamic programming)
+手算動態規劃
 
 ## Assignment 9 (VRP)車輛途程問題
 MBMP 12.23 Milk collection    
