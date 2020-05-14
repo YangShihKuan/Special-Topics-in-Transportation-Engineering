@@ -38,7 +38,7 @@ About the random number generation in Python:
 1. It is recommended to use numpy.random instead of Python built-in random  
 2. If you need only a single stream of random numbers, just set the seed and start generating random numbers.  
 3. If you need to use multiple streams of random numbers simultaneously, you need to create multiple random number generators with different seeds and generate random numbers using these generators.  
-4.Look up the Internet for documents and examples
+4. Look up the Internet for documents and examples
 
 ## Assignment 6 (FFCA core)
 Implement a FFCA based on the algorithm in Chu (2009)  
