@@ -48,7 +48,7 @@ Ignore Step 4 about dynamic field. That is, set its values to zero and do not up
 Simulate the pedestrian movements in a simple geometry (no obstacle)  
 The example should be very small so you can calculate the static field by hand.  
 
-## Assignment 7 (FFCA)  
+## Assignment 7 (FFCA)疏散模擬  
 Improve your FFCA model to deal with complex geometry  
 Step 0: Initialize the static field for complex geometry by discretizing space into a cell-based network (as in Asano et al., 2010) and find shortest distances from all cells to the destination cell with a shortest path algorithm (networkx in Python).  
 Simulate the pedestrian movements in a complex geometry with animation (tkinter in Python)  
@@ -58,19 +58,19 @@ Data for a maze is provided for testing
 
 ## Assignment 8 (Dynamic programming)
 
-## Assignment 9 (VRP)    
+## Assignment 9 (VRP)車輛途程問題
 MBMP 12.23 Milk collection    
 MBMP 12.27 Lost baggage distribution     
 
-## Assignment 10 (VRPTW heuristics)  
+## Assignment 10 (VRPTW heuristics)車輛途程演算法  
 VRPTW algorithms in Solomon (1987)  
 1. Saving heuristics  
 2. Nearest Neighbor heuristics 
 
-## Assignment 11 (VRPTW heuristics)
+## Assignment 11 (VRPTW heuristics)車輛途程演算法 
 Insertion heuristics using approach/type 1. 
 
-## Assignment 12 (dynamic VRP)
+## Assignment 12 (dynamic VRP)動態車輛途程問題
 The final assignment is to develop a "local-update" solution algorithm (a set of routing rules) for the dynamic VRP. (Reoptimization is computationally intensive and difficult to develop so not recommended.)
 
 The benchmarks of dynamic VRP can be found at http://becool.info.ucl.ac.be/resources/benchmarks-dynamic-and-stochastic-vehicle-routing-problem-time-windows. The 15 problems in class 1 will be used.
