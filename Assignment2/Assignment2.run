@@ -1,0 +1,17 @@
+##run model and data
+reset;
+
+model Assignment2.mod;
+data Assignment2.dat;
+
+option solver gurobi;
+solve;
+
+
+display Directness;
+#display I; 
+#display N;
+display Underprotected;
+#display X;
+#display N;
+#display delta;

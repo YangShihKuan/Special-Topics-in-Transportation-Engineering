@@ -1,0 +1,11 @@
+##run model and data
+reset;
+
+model 12_27_2.mod;
+data 12_27_2.dat;
+
+option solver gurobi;
+solve;
+
+display maxtime;
+display x;

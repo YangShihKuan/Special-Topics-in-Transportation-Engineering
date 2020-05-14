@@ -1,0 +1,10 @@
+##run model and data
+reset;
+
+model HW1.mod;
+data HW1.dat;
+
+solve;
+
+display x;
+display y;

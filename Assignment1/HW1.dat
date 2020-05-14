@@ -1,0 +1,23 @@
+##data with set
+
+
+set Product := Desk Table Chair;
+set Scenario := Low Most High;
+set Resource := Lumber Finishing Carpentry;
+ 
+param P := Low 0.3 Most 0.4 High 0.3; 
+param Price := Desk 60 Table 40 Chair 10;
+param Cost := Lumber 2 Finishing 4 Carpentry 5.2; 
+param Demand :    Low Most High :=
+            Desk    50  150  250
+            Table   20  110  250
+            Chair  200  225  500 ; 
+param Required :   Lumber Finishing Carpentry :=
+            Desk        8         4         2
+            Table       6         2       1.5
+            Chair       1       1.5       0.5;
+
+
+
+
+

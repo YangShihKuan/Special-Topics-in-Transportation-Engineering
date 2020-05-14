@@ -1,0 +1,11 @@
+##run model and data
+reset;
+
+model 12_23.mod;
+data 12_23.dat;
+
+option solver gurobi;
+solve ;
+
+display x;
+#display y;

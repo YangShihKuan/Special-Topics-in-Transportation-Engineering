@@ -1,0 +1,10 @@
+##run model and data
+reset;
+
+model 12_27.mod;
+data 12_27.dat;
+
+option solver gurobi;
+solve;
+display total_cost;
+display x;
