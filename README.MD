@@ -42,7 +42,7 @@ About the random number generation in Python:
 3. If you need to use multiple streams of random numbers simultaneously, you need to create multiple random number generators with different seeds and generate random numbers using these generators.  
 4. Look up the Internet for documents and examples
 
-## Assignment 6 (FFCA core)
+## Assignment 6 (FFCA core)行人模擬
 Implement a FFCA based on the algorithm in Chu (2009)  
 Start with a single pedestrian (Steps 1 and 2)  
 Then consider multiple pedestrians and conflicts (Step 3)  
